@@ -1,10 +1,12 @@
 <template>
   <v-app>
-    <v-container grid-list-xs>
-      
-    </v-container>
+    <RouterView></RouterView>
   </v-app>
 </template>
 
 <script setup>
+
 </script>
+
+<style scoped>
+</style>
