@@ -9,7 +9,12 @@ export async function loadFonts () {
 
   webFontLoader.load({
     google: {
-      families: ['inter:100,300,400,500,700,900&display=swap'],
+      families: ['Inter Tight:100,300,400,500,700,900'],
     },
+    active: function() {
+      console.log('Font ok')
+    }
   })
+
+  console.log(webFontLoader)
 }
