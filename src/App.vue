@@ -1,6 +1,8 @@
 <template>
   <v-app>
-    <RouterView></RouterView>
+    <div class="h-100 border border-slate-900">
+      <RouterView></RouterView>
+    </div>
   </v-app>
 </template>
 
@@ -8,5 +10,5 @@
 
 </script>
 
-<style scoped>
+<style>
 </style>
